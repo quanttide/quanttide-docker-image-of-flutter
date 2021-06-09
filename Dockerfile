@@ -11,7 +11,7 @@ RUN apt-get update \
 # 安装Flutter SDK
 RUN mkdir /sdk
 WORKDIR /sdk
-RUN git clone https://mirrors.tuna.tsinghua.edu.cn/git/flutter-sdk.git
+RUN git clone https://github.com/flutter/flutter.git
 
 # 添加环境变量
 ENV PATH /sdk/flutter-sdk/bin:$PATH
