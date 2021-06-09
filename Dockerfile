@@ -14,7 +14,7 @@ WORKDIR /sdk
 RUN git clone https://github.com/flutter/flutter.git
 
 # 添加环境变量
-ENV PATH /sdk/flutter-sdk/bin:$PATH
+ENV PATH /sdk/flutter/bin:$PATH
 ENV PUB_HOSTED_URL https://pub.flutter-io.cn
 ENV FLUTTER_STORAGE_BASE_URL https://storage.flutter-io.cn
 
